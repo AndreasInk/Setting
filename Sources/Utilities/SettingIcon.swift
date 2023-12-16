@@ -34,7 +34,7 @@ public struct SettingIconView: View {
         case .system(let icon, let foregroundColor, let backgroundColor):
             Image(systemName: icon)
                 .foregroundColor(foregroundColor)
-                .font(.footnote)
+                .font(.system(size: 16))
                 .frame(width: 28, height: 28)
                 .background(backgroundColor)
                 .cornerRadius(6)
